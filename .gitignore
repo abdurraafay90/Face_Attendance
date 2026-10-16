@@ -1,0 +1,34 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Pretrained Model Files & Task Bundles (Excluded from Git due to size)
+*.task
+*.onnx
+*.zip
+*.tar.gz
+*.bin
+*.pt
+*.pth
+gesture_recognizer.task
+blaze_face_short_range.task
+
+# Attendance Records & Enrolled Face Embeddings (User data)
+*.npy
+attendance.csv
+*.log
+logs/
+
+# IDE & Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
